@@ -1,0 +1,21 @@
+{
+  "name": "connect-to-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/knex": "^0.16.1",
+    "@types/node": "^13.13.5",
+    "dotenv": "^8.2.0",
+    "knex": "^0.21.1",
+    "mysql": "^2.18.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  }
+}
